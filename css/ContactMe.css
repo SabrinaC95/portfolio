@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    background-color: cornflowerblue;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkgrey;
+    height: 50px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    border: 2px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    align-self: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}   
+
+nav a:hover{
+    background-color: cornflowerblue;
+    color:white;
+}
+
+body {
+    margin: 0;
+    background-color:aliceblue;
+}
+/*Page heading layout*/
+#contact-layout {
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    text-transform: uppercase;
+    grid: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*form layout*/
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    row-gap: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-color: darkgray;
+    padding: 40px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;       
+    }
+/*text, comment, and submit adjustments*/
+input[type=submit] {
+    height: 40px;
+}
+
+textarea {
+    height: 60px;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+    height: 20px;
+}
+/*Recurring footer styling on each page*/
+footer {
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 5px;
+}
+

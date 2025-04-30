@@ -1,0 +1,129 @@
+/*Repeating header, nav, body, and hover on each page*/
+header {
+    display: flex;
+    background-color: cornflowerblue;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkgrey;
+    height: 50px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    border: 2px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    align-self: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}   
+
+nav a:hover{
+    background-color: cornflowerblue;
+    color:white;
+}
+
+body {
+    margin: 0;
+    background-color:aliceblue;
+}
+/*page header formating, same font family on each page*/
+#writing {
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    text-transform: uppercase;
+    grid: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*image formatting*/
+#books {
+    display: flex;
+    justify-content: center;
+    border: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-color: darkgray;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+img {
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+section a {
+    color:black;
+}
+/*3 Writing link formating*/
+#samples-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-color: darkgray;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-left: 75px;
+    padding-right: 75px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*individual addtional formating for writing links*/
+#final {
+    list-style-type: square;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 4px;  
+    list-style-position: inside;
+    padding: 10px;
+}
+
+#summary {
+    list-style-type: square;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 4px;  
+    list-style-position: inside;
+    padding: 10px;
+}
+
+#textual {
+    list-style-type: square;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 4px;  
+    list-style-position: inside;
+    padding: 10px;
+}
+/*link hovering formating for 3 writing samples*/
+section a:hover {
+    background-color: cornflowerblue;
+    color:white;    
+}
+
+/*repeating footer on each page*/
+footer {
+    text-align: center;
+    padding-top: 5px;
+    background-color: aliceblue;
+}

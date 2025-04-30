@@ -1,0 +1,117 @@
+/*Recurring formatting on each page- header, nav, body*/
+header {
+    display: flex;
+    background-color: cornflowerblue;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkgrey;
+    height: 50px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    border: 2px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    align-self: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+
+nav a:hover{
+    background-color: cornflowerblue;
+    color:white;
+    
+}
+
+body {
+    margin: 0;
+    background-color:aliceblue;
+}
+
+/*Heading styling that is recurring on each page*/
+#microsoft {
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#course {
+    padding-left: 15px;
+    padding-top: 0;
+    
+}
+
+#investigate {
+    padding-left: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: medium;
+}
+#headings {
+    margin-top: 0;
+    line-height: 15px;
+}
+/* 3 divs styling together and then individually*/
+#projects {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      border: 5px;
+      border-style: solid;
+      border-color: cornflowerblue;
+      background-color: darkgray;
+      padding-top: 15px;
+      padding-bottom: 15px; 
+      padding-left: 75px;
+      padding-right: 75px;
+}
+
+img {
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+/*list formatting*/
+ul {
+    list-style-type: square;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 4px;  
+    list-style-position: inside;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+li a {
+    color: black;  
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    line-height: 24px;
+     
+}
+
+li a:hover{
+    background-color: cornflowerblue;
+    color:white;
+}
+/*Repeating footer on each page*/
+footer {
+    text-align: center;
+    padding-top: 5px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,86 @@
+/* This styleshet is linked to the index html */
+/*Recuring styling of header, nav, and body for each page*/
+header {
+    display: flex;
+    background-color: cornflowerblue;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkgrey;
+    height: 50px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    border: 2px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    align-self: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}   
+
+nav a:hover{
+    background-color: cornflowerblue;
+    color:white;
+}
+/*Heading styling, font family is same for each page*/
+#about-me {
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    text-transform: uppercase;
+    grid: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    margin: 0;
+    background-color:aliceblue;
+}
+/*image styling for 3 pictures of family*/
+#img-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+}
+img {
+    border-color: black;
+    border-width: 10px;
+    border: solid;
+    border-radius: 10px;
+}
+
+div {
+    border: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-color: darkgray;
+    padding: 15px;
+    
+}
+#description {
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*recurring footer styling on each page*/
+footer {
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 5px;
+}
+

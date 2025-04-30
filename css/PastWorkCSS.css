@@ -1,0 +1,88 @@
+/*Repeating header, nav, body, and hover on each page*/
+header {
+    display: flex;
+    background-color: cornflowerblue;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkgrey;
+    height: 50px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    border: 2px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    align-self: center;   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+
+nav a:hover{
+    background-color: cornflowerblue;
+    color:white;
+}
+
+body {
+    margin: 0;
+    background-color:aliceblue;
+}
+/*paragraph telling about past experience. basic formating with repeating font family on each page*/
+#past-experience {
+    display: flex;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+    border: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-color: darkgray;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif
+}
+/*resume link formatting*/
+div a { 
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    border-color: black;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div a:hover {
+    background-color: cornflowerblue;
+    color:white;
+    
+}
+
+#past-work {
+    font-size: large;
+    
+}
+
+/*repeating footer formatting on each page*/
+footer {
+    text-align: center;
+    padding-top: 5px;
+    background-color: aliceblue;
+}

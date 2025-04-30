@@ -1,0 +1,126 @@
+/*Recurring header, nav, and body styling for each page*/
+header {
+    display: flex;
+    background-color: cornflowerblue;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;  
+    font-family: Arial, Helvetica, sans-serif; 
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkgrey;
+    height: 50px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    border: 2px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    align-self: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+
+nav a:hover{
+    background-color: cornflowerblue;
+    color:white;
+}
+
+body {
+    margin: 0;
+    background-color:aliceblue;
+}
+/*Heading layout for page. Recurring font family for each page*/
+#education-layout {
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    text-transform: uppercase;
+    grid: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*schooling info above table*/
+#college-info {
+        border: 5px;
+        border-style: solid;
+        border-color: cornflowerblue;
+        background-color: darkgray;
+        padding: 15px;
+        font-size: large;
+}
+
+#class-info {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;   
+}
+
+li {
+    list-style-type: square;
+}
+
+section {
+    margin-bottom: 8px;
+}
+/*table styling*/
+#class-list {
+    display: grid;
+    border: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-color: darkgray;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 5px;
+}
+
+th {
+    text-align: left;
+    font-size: large;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+    margin: 3px;
+}
+
+td a:hover {
+    background-color: cornflowerblue;
+    color:white;
+}
+
+th {
+    text-align: center;
+}
+/*Recurring footer formatting on each page*/
+footer {
+    text-align: center;
+    padding-top: 5px;
+    background-color: aliceblue;
+}
+
+
+
